@@ -1,0 +1,211 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  padding-top: 20px;
+  background: url(assets/images/login5.jpg);
+  width: 100%;
+  min-height: 650px;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h4 i {
+  color: #7ae0df;
+}
+
+.jumbotron img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.jumbotron img:hover {
+  transform: scale(1.1);
+}
+
+.class-for-projects-1 {
+  background: url(assets/images/weswes2.jpg);
+  width: 100%;
+  min-height: 650px;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects-1-text p {
+  color: #7ae0df;
+}
+
+.projects-1-text h4 {
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 75px;
+}
+
+span {
+  color: #7ae0df;
+}
+
+.fs-1 h1 {
+  font-size: large;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.navbar {
+  margin-bottom: -20px;
+}
+
+.navbar-brand {
+  font-weight: normal;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.navbar-brand:hover {
+  font-weight: bolder;
+  color: #7ae0df;
+}
+
+#footer a:hover {
+  font-weight: normal;
+  color: #7ae0df;
+}
+
+.navbar-nav a {
+  color: #fff;
+}
+
+.navbar-nav a:after {
+  color: #151515;
+  display: block;
+  content: "";
+  border-bottom: solid 3px #7ae0df;
+  border-radius: 30px;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.navbar-nav a:hover:after {
+  transform: scaleX(1);
+}
+
+.navbar-nav a:after {
+  transform-origin: 0% 50%;
+}
+
+#about .card {
+  border-color: #7ae0df;
+  border-radius: 20px;
+}
+
+#about .card img {
+  border-radius: 20px;
+  filter: grayscale(100%);
+}
+
+#about .card img {
+  --b: 5px;
+  --g: 7px;
+  --c: #7ae0df;
+
+  aspect-ratio: 3/2;
+  outline: solid #151515;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#about .card img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+  filter: none;
+}
+
+#about .card img + img {
+  border-radius: 50%;
+}
+
+#about h2 {
+  color: #fff;
+}
+
+#about h5 {
+  color: #ffffff;
+}
+
+#about p {
+  color: #fff;
+}
+
+#about a {
+  color: #7ae0df;
+}
+
+#about i {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+
+#about i:hover {
+  margin-left: 20px;
+  color: #7ae0df;
+}
+
+#service {
+  background-color: #151515;
+}
+
+#service img {
+  transition: transform 0.5s ease-in-out;
+}
+
+#service img:hover {
+  transform: scale(1.1);
+}
+
+#service h4 {
+  color: #ffffff;
+}
+
+#hireme img {
+  transition: transform 0.5s ease-in-out;
+}
+
+#hireme img:hover {
+  transform: scale(1.1);
+}
+
+#contact a {
+  color: #fff;
+  text-underline-offset: 8px;
+}
+
+#contact a:hover {
+  color: #7ae0df;
+  text-underline-offset: 8px;
+}
+
+#gallery-modal .modal-img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Font Digital";
+  src: url("Dune_Rise.ttf");
+}
+
+.navbar-brand {
+  font-family: "Font Digital";
+}
